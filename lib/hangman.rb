@@ -24,7 +24,6 @@ class Hangman
             @secret_word[i] = @secret_word[i].upcase
         end
         @secret_word = @secret_word[0..(@secret_word.length - 2)]
-        puts @secret_word
         @secret_word_display = "_" * (@secret_word.length - 1)
     end
 
@@ -51,7 +50,6 @@ class Hangman
             load_game
         end
 
-        puts @secret_word_display
         while @secret_word_display.include?("_") && @num_guesses > 0
             puts "Guess a letter or type 'save' to load last saved game."
             correct_guess = false
