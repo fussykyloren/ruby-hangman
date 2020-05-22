@@ -17,7 +17,7 @@ ruby -v
 If ruby is not installed, follow these [instructions](https://www.ruby-lang.org/en/documentation/installation/) to install it.
 After ruby is installed, you should clone this repositroy to a place easily accessible to you using this command in terminal:
 ```
-
+git clone https://github.com/fussykyloren/ruby-hangman.git
 ```
 Your github username and password should be requested. If not, don't worry about it.
 After the repository is cloned, you will need to change the directory to where the game example is saved. To do this, run this command next:
